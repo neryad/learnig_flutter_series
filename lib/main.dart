@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:learnig_flutter_series/02-stales-stafull-widget/stafull-widet.dart';
+import 'package:learnig_flutter_series/02-stales-stafull-widget/stales.dart';
 
 void main() {
   runApp(const MainApp());
@@ -53,15 +55,22 @@ class _MainAppState extends State<MainApp> {
                 },
               ),
               ListTile(
-                title: const Text('Texto'),
-                subtitle: const Text('Ejemplo del texto'),
+                title: const Text('StatelessWidget'),
+                subtitle: const Text('StatelessWidget'),
                 leading: const Icon(Icons.text_fields),
                 trailing: const Icon(Icons.arrow_forward),
                 onTap: () {
-                  _updateWidget(const Text(
-                    'Hola soy el texto2',
-                    style: TextStyle(fontSize: 24, color: Colors.red),
-                  ));
+                  _updateWidget(const IamStales());
+                  //Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: const Text('StatefulWidget'),
+                subtitle: const Text('Ejemplo del StatefulWidget'),
+                leading: const Icon(Icons.text_fields),
+                trailing: const Icon(Icons.arrow_forward),
+                onTap: () {
+                  _updateWidget(const IamStafull());
                   //Navigator.pop(context);
                 },
               ),

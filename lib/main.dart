@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:learnig_flutter_series/02-stales-stafull-widget/stafull-widet.dart';
-import 'package:learnig_flutter_series/02-stales-stafull-widget/stales.dart';
+import 'package:learnig_flutter_series/05-btn-cards/btn_cards.dart';
+import 'package:learnig_flutter_series/05-btn-cards/buttons.dart';
+import 'package:learnig_flutter_series/04-stales-stafull-widget/stafull-widet.dart';
+import 'package:learnig_flutter_series/04-stales-stafull-widget/stales.dart';
+import 'package:learnig_flutter_series/05-btn-cards/cards.dart';
 
 void main() {
   runApp(const MainApp());
@@ -74,6 +77,37 @@ class _MainAppState extends State<MainApp> {
                   //Navigator.pop(context);
                 },
               ),
+              ListTile(
+                title: const Text('Botones'),
+                subtitle: const Text('Ejemplo de los botones'),
+                leading: const Icon(Icons.smart_button),
+                trailing: const Icon(Icons.arrow_forward),
+                onTap: () {
+                  _updateWidget(const Buttons());
+                  //Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: const Text('Cards'),
+                subtitle: const Text('Ejemplo de los cards'),
+                leading: const Icon(Icons.card_giftcard),
+                trailing: const Icon(Icons.arrow_forward),
+                onTap: () {
+                  _updateWidget(const Cards());
+                  //Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: const Text('Cards + Botones'),
+                subtitle:
+                    const Text('Ejemplo de los cards junto a los botones'),
+                leading: const Icon(Icons.card_giftcard),
+                trailing: const Icon(Icons.arrow_forward),
+                onTap: () {
+                  _updateWidget(const BtnCards());
+                  //Navigator.pop(context);
+                },
+              )
             ],
           ),
         ),

@@ -21,7 +21,7 @@ class BtnCards extends StatelessWidget {
             onPressed: () => print('Hola desde el text button'),
             child: const Text('text button'),
           ),
-          Icon(
+          const Icon(
             Icons.settings,
             color: Colors.red,
             size: 50,

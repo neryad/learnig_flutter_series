@@ -4,6 +4,9 @@ import 'package:learnig_flutter_series/05-btn-cards/buttons.dart';
 import 'package:learnig_flutter_series/04-stales-stafull-widget/stafull-widet.dart';
 import 'package:learnig_flutter_series/04-stales-stafull-widget/stales.dart';
 import 'package:learnig_flutter_series/05-btn-cards/cards.dart';
+import 'package:learnig_flutter_series/06-columns-and-rows/column_rows.dart';
+import 'package:learnig_flutter_series/06-columns-and-rows/columns.dart';
+import 'package:learnig_flutter_series/06-columns-and-rows/rows.dart';
 
 void main() {
   runApp(const MainApp());
@@ -105,6 +108,36 @@ class _MainAppState extends State<MainApp> {
                 trailing: const Icon(Icons.arrow_forward),
                 onTap: () {
                   _updateWidget(const BtnCards());
+                  //Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: const Text('Rows'),
+                subtitle: const Text('Ejemplo del Rows'),
+                leading: const Icon(Icons.list),
+                trailing: const Icon(Icons.arrow_forward),
+                onTap: () {
+                  _updateWidget(const Rows());
+                  //Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: const Text('Columns'),
+                subtitle: const Text('Ejemplo del Columns'),
+                leading: const Icon(Icons.list),
+                trailing: const Icon(Icons.arrow_forward),
+                onTap: () {
+                  _updateWidget(const Columns());
+                  //Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: const Text('Columns and rowes'),
+                subtitle: const Text('Ejemplo de Columns and rowes'),
+                leading: const Icon(Icons.list),
+                trailing: const Icon(Icons.arrow_forward),
+                onTap: () {
+                  _updateWidget(const RowsAndColumns());
                   //Navigator.pop(context);
                 },
               )

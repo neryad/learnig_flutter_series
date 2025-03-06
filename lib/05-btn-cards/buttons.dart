@@ -9,7 +9,7 @@ class Buttons extends StatelessWidget {
       child: Center(
         child: IconButton(
           onPressed: () {},
-          icon: Icon(Icons.settings),
+          icon: const Icon(Icons.settings),
         ),
 
         //TextButton(onPressed: () {}, child: Text('Soy un TextButton'), style: ButtonStyle() ,),

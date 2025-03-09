@@ -36,9 +36,13 @@ Todos los videos estarán disponibles en esta lista de reproducción:
 21. [Flutter en Mac os: Inhalación y primeros pasos](https://youtu.be/j3QDXxAaTHY?si=kpVCSs1JqoS9IQ9n)
 22. [Flutter en Windows os: Inhalación y primeros pasos](https://youtu.be/IkrURCf_epk?si=9j3jnyDB-BSBSn3L)
 23. [Creando nuestro proyecto inicia](https://youtu.be/lEUwKPXR_54?si=yQ8K_4kiLB5rK9KG)
-24. [ómo Crear un Menú Lateral con Drawer, ListTile y AppBar en Flutter](https://youtu.be/z1-sKli902Q?si=bw7Xqq-Upa3cE94u)
+24. [Cómo Crear un Menú Lateral con Drawer, ListTile y AppBar en Flutter](https://youtu.be/z1-sKli902Q?si=bw7Xqq-Upa3cE94u)
 25. [Entendiendo BuildContext, StatelessWidget y StatefulWidget](https://youtu.be/9Q9y8qLRBAE?si=OCcmA1gZh6KT3jYa)
-26. [¡Más temas por venir! 🚧](#)
+26. [Botones y tarjetas](https://youtu.be/qotVwIQx2ss)
+27. [Columns and "Rowes"](https://youtu.be/MLzh-jI68RQ)
+28. [ProgressIndicators y Snackbars en Flutter](https://youtu.be/_7lVtB0O0c0)
+29. [Cliclos de vida en flutter]([https://youtu.be/MLzh-jI68RQ](https://youtu.be/T9_f7C-vLrA))
+30. [¡Más temas por venir! 🚧](#)
 
 > **Nota:** Los enlaces se activarán a medida que se publiquen los videos.
 

@@ -11,7 +11,6 @@ import 'package:learnig_flutter_series/08-cliclos/exmplet-clicos.dart';
 import 'package:learnig_flutter_series/07-progres-snackbars/progressindicartor.dart';
 import 'package:learnig_flutter_series/07-progres-snackbars/snackbar.dart';
 
-
 void main() {
   runApp(const MainApp());
 }
@@ -145,7 +144,7 @@ class _MainAppState extends State<MainApp> {
                   //Navigator.pop(context);
                 },
               ),
-           
+
               ListTile(
                 title: const Text('Snackbar'),
                 subtitle: const Text('Ejemplo de Snackbar'),
@@ -157,15 +156,7 @@ class _MainAppState extends State<MainApp> {
                   //Navigator.pop(context);
                 },
               ),
-                 ListTile(
-
-                title: const Text('Ciclos de vida'),
-                subtitle: const Text('Ejemplo de los ciclos de vida'),
-                leading: const Icon(Icons.list),
-                trailing: const Icon(Icons.refresh),
-                onTap: () {
-                  _updateWidget(const ExampleClicles());
-
+              ListTile(
                 title: const Text('ProgressIndicator'),
                 subtitle: const Text('Ejemplo de ProgressIndicator'),
                 leading: const Icon(Icons.circle),
@@ -175,6 +166,14 @@ class _MainAppState extends State<MainApp> {
                   //Navigator.pop(context);
                 },
               ),
+
+              ListTile(
+                title: const Text('Ciclos de vida'),
+                subtitle: const Text('Ejemplo de los ciclos de vida'),
+                leading: const Icon(Icons.list),
+                trailing: const Icon(Icons.refresh),
+              )
+              //Navigator.pop(context);
             ],
           ),
         ),

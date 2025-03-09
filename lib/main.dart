@@ -172,6 +172,10 @@ class _MainAppState extends State<MainApp> {
                 subtitle: const Text('Ejemplo de los ciclos de vida'),
                 leading: const Icon(Icons.list),
                 trailing: const Icon(Icons.refresh),
+                onTap: () {
+                  _updateWidget(const ExampleClicles());
+                  //Navigator.pop(context);
+                },
               )
               //Navigator.pop(context);
             ],

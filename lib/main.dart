@@ -7,6 +7,8 @@ import 'package:learnig_flutter_series/05-btn-cards/cards.dart';
 import 'package:learnig_flutter_series/06-columns-and-rows/column_rows.dart';
 import 'package:learnig_flutter_series/06-columns-and-rows/columns.dart';
 import 'package:learnig_flutter_series/06-columns-and-rows/rows.dart';
+import 'package:learnig_flutter_series/07-progres-snackbars/progressindicartor.dart';
+import 'package:learnig_flutter_series/07-progres-snackbars/snackbar.dart';
 
 void main() {
   runApp(const MainApp());
@@ -138,6 +140,26 @@ class _MainAppState extends State<MainApp> {
                 trailing: const Icon(Icons.arrow_forward),
                 onTap: () {
                   _updateWidget(const RowsAndColumns());
+                  //Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: const Text('ProgressIndicator'),
+                subtitle: const Text('Ejemplo de ProgressIndicator'),
+                leading: const Icon(Icons.circle),
+                trailing: const Icon(Icons.arrow_forward),
+                onTap: () {
+                  _updateWidget(const Progressindicartor());
+                  //Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: const Text('Snackbar'),
+                subtitle: const Text('Ejemplo de Snackbar'),
+                leading: const Icon(Icons.message_sharp),
+                trailing: const Icon(Icons.arrow_forward),
+                onTap: () {
+                  _updateWidget(const SnackbarWiget());
                   //Navigator.pop(context);
                 },
               )

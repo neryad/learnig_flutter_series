@@ -41,7 +41,7 @@ Todos los videos estarán disponibles en esta lista de reproducción:
 26. [Botones y tarjetas](https://youtu.be/qotVwIQx2ss)
 27. [Columns and "Rowes"](https://youtu.be/MLzh-jI68RQ)
 28. [ProgressIndicators y Snackbars en Flutter](https://youtu.be/_7lVtB0O0c0)
-29. [Cliclos de vida en flutter]([https://youtu.be/MLzh-jI68RQ](https://youtu.be/T9_f7C-vLrA))
+29. [Cliclos de vida en flutter](https://youtu.be/T9_f7C-vLrA)
 30. [¡Más temas por venir! 🚧](#)
 
 > **Nota:** Los enlaces se activarán a medida que se publiquen los videos.

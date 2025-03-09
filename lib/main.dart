@@ -7,6 +7,7 @@ import 'package:learnig_flutter_series/05-btn-cards/cards.dart';
 import 'package:learnig_flutter_series/06-columns-and-rows/column_rows.dart';
 import 'package:learnig_flutter_series/06-columns-and-rows/columns.dart';
 import 'package:learnig_flutter_series/06-columns-and-rows/rows.dart';
+import 'package:learnig_flutter_series/08-cliclos/exmplet-clicos.dart';
 
 void main() {
   runApp(const MainApp());
@@ -138,6 +139,16 @@ class _MainAppState extends State<MainApp> {
                 trailing: const Icon(Icons.arrow_forward),
                 onTap: () {
                   _updateWidget(const RowsAndColumns());
+                  //Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: const Text('Ciclos de vida'),
+                subtitle: const Text('Ejemplo de los ciclos de vida'),
+                leading: const Icon(Icons.list),
+                trailing: const Icon(Icons.refresh),
+                onTap: () {
+                  _updateWidget(const ExampleClicles());
                   //Navigator.pop(context);
                 },
               )

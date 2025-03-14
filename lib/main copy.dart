@@ -35,6 +35,10 @@ class _MainAppState extends State<MainApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      initialRoute: 'login',
+      routes: {
+        '/second': (context) => const ExampleNavigator(),
+      },
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Widgets Básicos en Flutter'),

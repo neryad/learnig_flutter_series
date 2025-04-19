@@ -15,6 +15,7 @@ import 'package:learnig_flutter_series/10-InheritedWidget/counter_provider.dart'
 import 'package:learnig_flutter_series/10-InheritedWidget/counter_state.dart';
 import 'package:learnig_flutter_series/10-InheritedWidget/inhereta-page.dart';
 import 'package:learnig_flutter_series/11-paquetes/paquetes.dart';
+import 'package:learnig_flutter_series/12-http/http_peticiones.dart';
 
 void main() {
   runApp(const MainApp());
@@ -213,6 +214,17 @@ class _MainAppState extends State<MainApp> {
                     trailing: const Icon(Icons.route),
                     onTap: () {
                       _updateWidget(const Paquetes());
+                      //Navigator.pop(context);
+                    },
+                  ),
+
+                  ListTile(
+                    title: const Text('Peticion HTTP'),
+                    subtitle: const Text('Ejemplo de peticion HTTP'),
+                    leading: const Icon(Icons.web),
+                    trailing: const Icon(Icons.route),
+                    onTap: () {
+                      _updateWidget(const PeticionesHttp());
                       //Navigator.pop(context);
                     },
                   ),

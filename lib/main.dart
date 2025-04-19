@@ -14,6 +14,7 @@ import 'package:learnig_flutter_series/09-navegacion/explame-navigator.dart';
 import 'package:learnig_flutter_series/10-InheritedWidget/counter_provider.dart';
 import 'package:learnig_flutter_series/10-InheritedWidget/counter_state.dart';
 import 'package:learnig_flutter_series/10-InheritedWidget/inhereta-page.dart';
+import 'package:learnig_flutter_series/11-paquetes/paquetes.dart';
 
 void main() {
   runApp(const MainApp());
@@ -205,7 +206,16 @@ class _MainAppState extends State<MainApp> {
                       //Navigator.pop(context);
                     },
                   ),
-
+                  ListTile(
+                    title: const Text('Paquetes'),
+                    subtitle: const Text('Ejemplo de paquetes'),
+                    leading: const Icon(Icons.add_box),
+                    trailing: const Icon(Icons.route),
+                    onTap: () {
+                      _updateWidget(const Paquetes());
+                      //Navigator.pop(context);
+                    },
+                  ),
                   //Navigator.pop(context);
                 ],
               ),

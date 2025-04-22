@@ -42,7 +42,12 @@ Todos los videos estarán disponibles en esta lista de reproducción:
 27. [Columns and "Rowes"](https://youtu.be/MLzh-jI68RQ)
 28. [ProgressIndicators y Snackbars en Flutter](https://youtu.be/_7lVtB0O0c0)
 29. [Cliclos de vida en flutter](https://youtu.be/T9_f7C-vLrA)
-30. [¡Más temas por venir! 🚧](#)
+30. [Navegacion entre pantallas](https://youtu.be/QtN5W2lrKyk)
+31. [Gestión de Estado en Flutter: InheritedWidget](https://youtu.be/iLSbfTSofS0)
+32. [RIVERPOD FOR NOOBS: Aprende gestión de estado en Flutter con @romanejaquez ](https://youtube.com/playlist?list=PL3FHdHYqoX7qc14zQWhYs2D_yjf2Yn8_6&si=nv6VGjlHSvhePN5o)
+33. Uso de paquetes 🚧
+34. Peticiones Http 🚧
+35. [¡Más temas por venir! 🚧](#)
 
 > **Nota:** Los enlaces se activarán a medida que se publiquen los videos.
 

@@ -16,6 +16,7 @@ import 'package:learnig_flutter_series/10-InheritedWidget/counter_state.dart';
 import 'package:learnig_flutter_series/10-InheritedWidget/inhereta-page.dart';
 import 'package:learnig_flutter_series/11-paquetes/paquetes.dart';
 import 'package:learnig_flutter_series/12-http/http_peticiones.dart';
+import 'package:learnig_flutter_series/13-local-storage/localStorage.dart';
 
 void main() {
   runApp(const MainApp());
@@ -225,6 +226,16 @@ class _MainAppState extends State<MainApp> {
                     trailing: const Icon(Icons.route),
                     onTap: () {
                       _updateWidget(const PeticionesHttp());
+                      //Navigator.pop(context);
+                    },
+                  ),
+                  ListTile(
+                    title: const Text('local Storage'),
+                    subtitle: const Text('Ejemplo de local Storage'),
+                    leading: const Icon(Icons.storage),
+                    trailing: const Icon(Icons.route),
+                    onTap: () {
+                      _updateWidget(const LocalStoragePage());
                       //Navigator.pop(context);
                     },
                   ),

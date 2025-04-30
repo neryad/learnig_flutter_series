@@ -49,17 +49,17 @@ class _LocalStoragePageState extends State<LocalStoragePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Data local - sharedPreference'),
+        title: const Text('Data local - sharedPreference'),
       ),
       body: Padding(
-        padding: EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
             Text('Nombre guardado: $_savedName',
-                style: TextStyle(fontSize: 20)),
-            SizedBox(height: 20),
+                style: const TextStyle(fontSize: 20)),
+            const SizedBox(height: 20),
             Text('Lista guardada: $_savedNames',
-                style: TextStyle(fontSize: 20)),
+                style: const TextStyle(fontSize: 20)),
             TextField(
               controller: _nameController,
             ),
@@ -67,12 +67,12 @@ class _LocalStoragePageState extends State<LocalStoragePage> {
                 onPressed: () {
                   _saveName();
                 },
-                child: Text('Guardar nombre')),
+                child: const Text('Guardar nombre')),
             ElevatedButton(
                 onPressed: () {
                   _saveList();
                 },
-                child: Text('Guardar lista')),
+                child: const Text('Guardar lista')),
           ],
         ),
       ),

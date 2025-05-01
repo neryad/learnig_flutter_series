@@ -45,9 +45,10 @@ Todos los videos estarán disponibles en esta lista de reproducción:
 30. [Navegacion entre pantallas](https://youtu.be/QtN5W2lrKyk)
 31. [Gestión de Estado en Flutter: InheritedWidget](https://youtu.be/iLSbfTSofS0)
 32. [RIVERPOD FOR NOOBS: Aprende gestión de estado en Flutter con @romanejaquez ](https://youtube.com/playlist?list=PL3FHdHYqoX7qc14zQWhYs2D_yjf2Yn8_6&si=nv6VGjlHSvhePN5o)
-33. Uso de paquetes 🚧
-34. Peticiones Http 🚧
-35. [¡Más temas por venir! 🚧](#)
+33. [Uso de paquetes](https://www.youtube.com/watch?v=DMx3pOsXIys&t=6s)
+34. [Peticiones Http](https://www.youtube.com/watch?v=kVks3brKUpU)
+35. [Local Storage](https://www.youtube.com/watch?v=rkMzfFwOQug&t=9s)
+36. [¡Más temas por venir! 🚧](#)
 
 > **Nota:** Los enlaces se activarán a medida que se publiquen los videos.
 

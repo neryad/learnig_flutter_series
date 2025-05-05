@@ -17,6 +17,7 @@ import 'package:learnig_flutter_series/10-InheritedWidget/inhereta-page.dart';
 import 'package:learnig_flutter_series/11-paquetes/paquetes.dart';
 import 'package:learnig_flutter_series/12-http/http_peticiones.dart';
 import 'package:learnig_flutter_series/13-local-storage/localStorage.dart';
+import 'package:learnig_flutter_series/14-formularios/formularios.dart';
 
 void main() {
   runApp(const MainApp());
@@ -239,6 +240,17 @@ class _MainAppState extends State<MainApp> {
                       //Navigator.pop(context);
                     },
                   ),
+                  ListTile(
+                    title: const Text('Formularios'),
+                    subtitle: const Text('Ejemplo de formularios'),
+                    leading: const Icon(Icons.text_fields),
+                    trailing: const Icon(Icons.route),
+                    onTap: () {
+                      _updateWidget(const FormulariosPage());
+                      //Navigator.pop(context);
+                    },
+                  ),
+
                   //Navigator.pop(context);
                 ],
               ),
